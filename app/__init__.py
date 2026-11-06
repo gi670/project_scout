@@ -1,0 +1,1 @@
+"""GitHub Scout application package."""

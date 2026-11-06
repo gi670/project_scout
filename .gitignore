@@ -1,0 +1,51 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Local SQLite database files
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+
+# Environment secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# SQLite databases
+data/*.db
+data/*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Runtime
+bot.pid
+
+# macOS
+.DS_Store
